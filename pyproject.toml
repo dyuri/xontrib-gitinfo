@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "xontrib-gitinfo"
+version = "0.1.0"
+description = "Displays information on entering a git repository."
+authors = ["Gyuri Horak <dyuri@horak.hu>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/dyuri/xontrib-gitinfo"
+packages = [
+    { include = "xontrib" },
+]
+include = ["LICENSE", "xontrib/*.xsh"]
+classifiers=[
+    'Environment :: Console',
+    'Intended Audience :: End Users/Desktop',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Topic :: Desktop Environment',
+    'Topic :: System :: Shells',
+    'Topic :: System :: System Shells',
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
