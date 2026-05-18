@@ -13,9 +13,9 @@ Uses [onefetch](https://github.com/o2sh/onefetch) if available.
 
 ## Install
 
-```
-$ pip install xontrib-gitinfo
-$ xontrib load gitinfo
+```xsh
+xpip install xontrib-gitinfo
+xontrib load gitinfo
 ```
 
 ## Logo
