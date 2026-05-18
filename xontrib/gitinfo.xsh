@@ -1,10 +1,11 @@
 import os
+import shutil
 
 __version__ = '0.1.0'
 __all__ = ()
 
-ONEFETCH = $(which onefetch)
-GIT = $(which git)
+ONEFETCH = shutil.which('onefetch')
+GIT = shutil.which('git')
 
 
 def __gitinfo_show_git_info():
